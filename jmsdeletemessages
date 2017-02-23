@@ -1,1 +1,39 @@
-welcome
+wldev: {/apps/bea/domains/c41GWMP_Desktop}-> wf.orchestrator.LaserAppFormFeedOrchestrator                                           <
+JAVA_HOME   : [/apps/bea/fusion11g/software/jrrt-4.0.1-1.6.0]
+WL_HOME     : [/apps/bea/fusion11g/software/wlserver_10.3]
+JAVA_ARG    : []
+NONJAVA_ARG : [ /tmp/jmsdelmessages1.py com.seic.common.cachewf.orchestrator.LaserAppFormFeedOrchestrator]
+DOMAIN HOME : [/apps/bea/domains/c41GWMP_Desktop]
+
+Initializing WebLogic Scripting Tool (WLST) ...
+
+warning: /home/wldev/.jython is a directory, not a file
+WARNING - Unable to create log file </nas/apps/bea/fusion11g/software/modules/../logs/wlst_20170223091758.log>: java.io.IOException: Permission denied
+Welcome to WebLogic Server Administration Scripting Shell
+
+Type help() for help on available commands
+
+Loading connect.properties
+Could not find the properties file to load properties from connect.properties.
+Connecting to t3://SEIDEVC41WLS01.GWPDEV.SEIC.COM:8001 with userid admin ...
+Successfully connected to Admin Server 'adminServer' that belongs to domain 'c41GWMP_Desktop'.
+
+Warning: An insecure protocol was used to connect to the
+server. To ensure on-the-wire security, the SSL port or
+Admin port should be used instead.
+
+ServerRuntimes/c41_Desktop_MS1/JMSRuntime/c41_Desktop_MS1.jms/JMSServers/Desktop_c41_c41_Desktop_MS1_JMSServer/Destinations/DESKTOP-JMS-DEST!Desktop_c41_Desktop_MS1_JMSServer@com.seic.common.cachewf.orchestrator.LaserAppFormFeedOrchestrator
+None
+None
+Problem invoking WLST - Traceback (innermost last):
+  File "/tmp/jmsdelmessages1.py", line 46, in ?
+  File "<iostream>", line 173, in cd
+        at weblogic.management.scripting.BrowseHandler.cd(BrowseHandler.java:651)
+        at weblogic.management.scripting.WLScriptContext.cd(WLScriptContext.java:196)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+        at java.lang.reflect.Method.invoke(Method.java:597)
+
+java.lang.NullPointerException: java.lang.NullPointerException
+
